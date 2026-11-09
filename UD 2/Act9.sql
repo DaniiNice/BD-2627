@@ -83,3 +83,4 @@ FROM rol_ventas;
 -- mariadb -u ana_vnt -p
 -- Password: VentasPass456
 USE tienda_db;
+UPDATE Pedidos SET total=10 WHERE id_pedido=1;
