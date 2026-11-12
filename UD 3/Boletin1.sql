@@ -1,4 +1,3 @@
--- Active: 1792140463461@@127.0.0.1@3306@algebra_relacional
 -- 1.
 SELECT * FROM Libros;
 
