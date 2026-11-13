@@ -1,3 +1,4 @@
+-- Actividad Realizada por Daniel Marcos Ferreira Castaño y Vincent Leonardo Honorio Benito
 -- 1.
 SELECT * FROM Libros;
 
@@ -29,9 +30,9 @@ SELECT * FROM Libros WHERE genero = 'Ciencia Ficción' ORDER BY numero_paginas A
 SELECT DISTINCT autor FROM Libros;
 
 -- 11.
-SELECT DISTINCT genero FROM Libros ORDER BY ;
+SELECT DISTINCT genero FROM Libros ORDER BY ASC;
 
 -- 12.
-SELECT titulo, autor, numero_pagina FROM Libros 
-WHERE editorial='Realismo Mágico' AND numero_paginas < 400 
+SELECT titulo, autor, numero_paginas FROM Libros 
+WHERE genero='Realismo Mágico' AND numero_paginas < 400 
 ORDER BY titulo ASC;
